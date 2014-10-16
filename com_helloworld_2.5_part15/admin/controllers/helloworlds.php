@@ -17,6 +17,7 @@ class HelloWorldControllerHelloWorlds extends JControllerAdmin
 	 */
 	public function getModel($name = 'HelloWorld', $prefix = 'HelloWorldModel') 
 	{
+		$prova=0;
 		$model = parent::getModel($name, $prefix, array('ignore_request' => true));
 		return $model;
 	}
